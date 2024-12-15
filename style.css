@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.main-image { text-align: center;
-}
+  .main-image { 
+    text-align: center;
+  }
 }
 .content {
   display: block;
@@ -41,7 +42,7 @@ ul {
 .task-list, .heading {
   list-style:none;
 }
-input,button{
+input, button{
   outline:none;
 }
 button {
@@ -114,7 +115,7 @@ label[for="new-task"] {
   font-size: 18px;
   width: 226px;
 }
-.task-list >    input[type="text"] {
+.task-list > input[type="text"] {
   width: 226px
 }
 .delete-img {
